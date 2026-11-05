@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+.env
+.env.*
+
+# Medical imaging data
+*.nii
+*.nii.gz
+*.npy
+*.npz
+*.pkl
+*.zip
+
+# nnU-Net data directories
+nnUNet_raw/
+nnUNet_preprocessed/
+nnUNet_results/
+
+# Checkpoints
+*.pth
+*.pt
+*.ckpt
+*.safetensors
+
+# Local logs and cache
+logs/
+.cache/
+.DS_Store
